@@ -1,13 +1,13 @@
-package com.springproject.bookreviewplatform;
+package com.springproject.booksellingplatform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookreviewplatformApplication {
+public class BooksellingplatformApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookreviewplatformApplication.class, args);
+		SpringApplication.run(BooksellingplatformApplication.class, args);
 	}
 
 }

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springproject</groupId>
-	<artifactId>bookreviewplatform</artifactId>
+	<artifactId>booksellingplatform</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookreviewplatform</name>
 	<description>SpringBoot project for Book Review Platform</description>

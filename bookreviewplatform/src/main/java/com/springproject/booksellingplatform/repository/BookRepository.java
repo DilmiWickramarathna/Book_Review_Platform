@@ -1,6 +1,6 @@
-package com.springproject.bookreviewplatform.repository;
+package com.springproject.booksellingplatform.repository;
 
-import com.springproject.bookreviewplatform.model.Book;
+import com.springproject.booksellingplatform.model.Book;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

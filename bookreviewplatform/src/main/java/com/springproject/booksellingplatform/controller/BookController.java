@@ -1,7 +1,7 @@
-package com.springproject.bookreviewplatform.controller;
+package com.springproject.booksellingplatform.controller;
 
-import com.springproject.bookreviewplatform.model.Book;
-import com.springproject.bookreviewplatform.service.BookService;
+import com.springproject.booksellingplatform.model.Book;
+import com.springproject.booksellingplatform.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin //Fix CORS errors
-@RequestMapping("/bookreviewplatform")
+@RequestMapping("/booksellingplatform")
 public class BookController {
     @Autowired
     private BookService service;
@@ -31,7 +31,6 @@ public class BookController {
         else
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
-
 
     @PostMapping("/book")
     public void addBook(@RequestBody Book book)

@@ -1,4 +1,4 @@
-package com.springproject.bookreviewplatform.model;
+package com.springproject.booksellingplatform.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;

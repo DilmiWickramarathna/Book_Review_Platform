@@ -1,7 +1,7 @@
-package com.springproject.bookreviewplatform.service;
+package com.springproject.booksellingplatform.service;
 
-import com.springproject.bookreviewplatform.model.Book;
-import com.springproject.bookreviewplatform.repository.BookRepository;
+import com.springproject.booksellingplatform.model.Book;
+import com.springproject.booksellingplatform.repository.BookRepository;
 import jakarta.transaction.Transactional;
 import org.hibernate.StaleObjectStateException;
 import org.springframework.beans.factory.annotation.Autowired;

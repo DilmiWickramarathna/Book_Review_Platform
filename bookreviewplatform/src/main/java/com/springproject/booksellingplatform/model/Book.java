@@ -1,4 +1,4 @@
-package com.springproject.bookreviewplatform.model;
+package com.springproject.booksellingplatform.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
@@ -29,8 +29,11 @@ public class Book {
     @JsonProperty("Description")
     private String Description;
 
-    @JsonProperty("Rating")
-    private int Rating;
+    @JsonProperty("Price")
+    private float Price;
+
+    @JsonProperty("Stock")
+    private int Stock;
 
 }
 
