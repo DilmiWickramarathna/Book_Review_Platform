@@ -23,9 +23,6 @@ public class Book {
     @JsonProperty("Author")
     private String Author;
 
-    @JsonProperty("Name")
-    private String Name;
-
     @JsonProperty("Category")
     private String Category;
 
